@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+ 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #007BFF;
+            text-align: center; /* Centrar solo el título */
+            margin-bottom: 10px; /* Agregado para dar espacio entre el título y el subtítulo */
+        }
+        h2 {
+            color: #17A2B8;
+            border-bottom: 2px solid #17A2B8;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            background-color: #f2f2f2;
+        }
+        .job-section {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        /* Eliminado el fondo celeste para la segunda experiencia laboral */
+      
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hoja de Vida</h1>
+
+    <h2>Datos Personales</h2> <!-- Nuevo subtítulo -->
+    <img src="Foto.png" alt="Tu fotografía">
+    <p><strong>Nombre:</strong> Steeven Gabriel Panchi Viteri</p>
+    <p><strong>Dirección:</strong> Av. Cusubamba OE2Q S24</p>
+    <p><strong>Email:</strong> steven.panchi13@gmail.com</p>
+    <p><strong>Teléfono:</strong> 0987517368</p>
+    <p><strong>Nivel de Inglés:</strong> Intermedio</p>
+
+    <section>
+        <h2>Estudios</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Grado</th>
+                    <th>Institución</th>
+                    <th>Año de Inicio</th>
+                    <th>Año de Graduación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bachiller</td>
+                    <td>Unidad Educativa FAE</td>
+                    <td>2006</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>Tercer Nivel</td>
+                    <td>Escuela Politécnica Nacional</td>
+                    <td>2018</td>
+                    <td>Cursando</td>
+                </tr>
+                <!-- Agregar más filas según sea necesario -->
+            </tbody>
+        </table>
+    </section>
+
+    <section class="job-section">
+        <h2>Experiencia Profesional</h2>
+        <p><strong>Puesto:</strong> Asistente Administrativo</p>
+        <p><strong>Empresa:</strong> Sesmin</p>
+        <p><strong>Fecha de Inicio - Fecha de Fin:</strong> Abril 2022 - Diciembre 2023</p>
+        <p><strong>Descripción:</strong> Desempeñé funciones administrativas, gestionando tareas como...</p>
+    </section>
+
+    <section class="job-section">
+        <h2>Experiencia Profesional</h2>
+        <p><strong>Puesto:</strong> Pasante Operacionex</p>
+        <p><strong>Empresa:</strong> Construex</p>
+        <p><strong>Fecha de Inicio - Fecha de Fin:</strong> Octubre 2023 - Febrero 2024</p>
+        <p><strong>Descripción:</strong> Responsable de la administración y manejo de bases de datos...</p>
+        <!-- Repetir este bloque para cada experiencia profesional -->
+    </section>
+
+    <section>
+        <h2>Video de Presentación</h2>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <p><strong>Descripción del Video:</strong> Breve presentación destacando mis habilidades y experiencia.</p>
+    </section>
+
+    <section>
+        <h2>Referencias Personales</h2>
+        <p><strong>Nombre:</strong> Ing. Xavier Panchi</p>
+        <p><strong>Email:</strong> xavierpanchi@gmail.com</p>
+        <p><strong>Teléfono:</strong> 0972653783</p>
+        <!-- Repetir este bloque para cada referencia -->
+
+        <h2>Referencias Personales</h2>
+        <p><strong>Nombre:</strong> Ing. Lorena Peralta</p>
+        <p><strong>Email:</strong> lorenaperalta@gmail.com</p>
+        <p><strong>Teléfono:</strong> 0979383792</p>
+    </section>
+</body>
+</html>
